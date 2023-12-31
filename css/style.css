@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    /* background: #9d7035; */
+    
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/old_nautical_treasure_map_illustration_Wall_Mural_Wallpaper_a_1400x.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Content desc starts here */
+.content-wrapper{
+    width: 80%;
+    min-height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.content-desc h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.content-desc p{
+    width: 550px;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-bottom: 10px;
+}
+.content-desc span{
+    color: #FEC53A;
+}
+/* */
+.rakuto{
+    width: 400px;
+    left: 150px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.rakuto::after{
+    content: '';
+    width: 400px;
+    height: 400px;
+   
+    background: url(../images/rakuto.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 0px;
+    left: -150px;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+.logo-section .fas{
+    font-size: 6rem;
+    color: #FEC53A;
+}
+
+.section-1-wrapper{
+    width: 70%;
+    margin: auto;
+}
+.section-1 h1{
+    width: 500px;
+    color: #FEC53A;
+    font-size: 1.5rem;
+    position: relative;
+    font-weight: 400;
+}
+.section-1-img{
+    display: flex;
+}
+.img:hover{
+    transform: translateY(-10px);
+} */
+
+/* FOoter section */
+footer{
+    width: 100%;
+    height: 55vh;
+    background: #282828;
+    display: flex;
+    align-items: center;
+    
+}
+.footer-body{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo{
+    height: 12vh;
+    background-color: #FEC53A;
+    color: #000;
+    line-height: 1.7rem;
+}
+ul h3{
+    color: #fff;
+    font-weight: 450;
+}
+ul li{
+    list-style: none;
+    line-height: 2.5rem;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li a .fab{
+    font-size: 1.2rem;
+    color: #FEC53A;
+    margin-right: 15px;
+}
+ul li a:hover{
+    color: #FEC53A;
+}
+.footer-bottom{
+    width: 100%;
+    height: 7vh;
+    background: #1B1919;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+}
+.footer-bottom span{
+    color: #FEC53A;
+    font-weight: bold;
+}
+
+.quesbtn {
+    border-radius: 20%;
+    margin-left: 38%;
+    width: 50vh;
+    display: inline-block;
+    background-color: #4CAF50; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    padding: 8px 16px; /* Adjust padding as needed for a smaller size */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Optional: Add rounded corners */
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Optional: Add transition effect */
+
+    /* Centering the content */
+    display: flex;
+    align-items: center;
+}
+
+.quesbtn:hover {
+    background-color: #45a049; /* Set a slightly different color on hover */
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo-section i {
+    margin-right: 8px; /* Optional: Add space between icon and text */
+}
